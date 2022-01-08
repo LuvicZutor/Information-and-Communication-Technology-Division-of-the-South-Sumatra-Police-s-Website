@@ -1,0 +1,667 @@
+body {
+	font-family: "Assistant", sans-serif;
+	font-weight: 300;
+}
+nav {
+	position: fixed;
+}
+.navbar {
+	background-color: #ffffff;
+}
+
+.navbar .active {
+	font-weight: 600;
+}
+
+.banner1234 .contents {
+	position: absolute; /* Position the background text */
+	bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+	background: rgb(0, 0, 0);
+	background: rgba(226, 35, 40, 0.5); /*Black background with 0.5 opacity*/
+	color: #f1f1f1; /* Grey text */
+	width: 35%; /* Full width */
+	padding: 20px; /* Some padding */
+	margin-bottom: 55px;
+	margin-left: 0px;
+}
+
+.contents {
+	font-family: "Playfair Display", sans-serif;
+}
+
+.navbar-hal {
+	background-color: #ffffff;
+}
+
+.navbar-brand img {
+	max-height: 40px;
+}
+
+.checkout-class {
+	font-size: 45px;
+	color: #05668d;
+}
+
+form .btn-login {
+	background-color: #24262b;
+	color: white;
+}
+
+form .btn-login:hover {
+	background-color: #24262b;
+	color: white;
+	-webkit-transition: ease-in 0.5s;
+	transition: ease-in 0.5s;
+}
+
+form .btn-register {
+	color: black;
+}
+
+form .btn-register:hover {
+	background-color: #e22328;
+	color: white;
+	-webkit-transition: ease-in 0.5s;
+	transition: ease-in 0.5s;
+}
+
+.search-bar {
+	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.search-bar .btn-searching {
+	background-color: #24262b;
+	color: white;
+}
+
+.search-bar .btn-searching:hover {
+	background-color: #24262b;
+	color: white;
+	-webkit-transition: ease-in 0.5s;
+	transition: ease-in 0.5s;
+}
+
+.carousel-web {
+	margin-top: -90px;
+	z-index: -9;
+}
+
+.carousel-inner {
+	margin-top: 20px;
+}
+
+.carousel-inner img {
+	height: 500px;
+}
+
+.carousel-inner .mobile-carousel h1 {
+	font-family: "Playfair Display", sans-serif;
+}
+
+.carousel-inner .mobile-carousel .btn-vacation {
+	background-color: #24262b;
+	color: white;
+}
+
+.carousel-inner .mobile-carousel .btn-vacation:hover {
+	background-color: #24262b;
+}
+
+.pic-title img {
+	max-height: 500px;
+}
+
+.pic-title .pic-caption {
+	height: 270px;
+	background-color: #f6f7fb;
+}
+
+.pic-title .pic-caption h1 {
+	font-weight: 600;
+	color: #05668d;
+	font-size: 40px;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.pic-title .pic-caption p {
+	font-size: 30px;
+}
+
+.statistik {
+	margin-top: 45px;
+}
+
+.statistik h2 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #05668d;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.statistik p {
+	font-size: 18px;
+}
+
+.statistik .card-statistic {
+	width: 150px;
+	height: 150px;
+	padding: 10px 5px;
+	-webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+.statistik .card-statistic h3 {
+	font-size: 60px;
+	color: #05668d;
+}
+
+.statistik .card-statistic p {
+	color: #05668d;
+}
+
+.statistik .mobile-card-statistic {
+	height: 100px;
+	padding: 2px 4px;
+	-webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+.statistik .mobile-card-statistic h3 {
+	font-size: 50px;
+	color: #05668d;
+}
+
+.statistik .mobile-card-statistic p {
+	color: #05668d;
+}
+
+.categories {
+	margin-top: 50px;
+}
+
+.categories h4 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #24262b;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.categories p {
+	font-size: 18px;
+}
+
+.categories img {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.categories img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	text-decoration: none;
+}
+
+.section-wisata {
+	min-height: 300px;
+	margin-bottom: -150px;
+	margin-top: -150px;
+}
+
+.section-wisata .section-wisata-heading {
+	margin-top: 20px;
+}
+
+.section-wisata .section-wisata-heading h4 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #e22328;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-wisata .section-wisata-heading p {
+	font-size: 18px;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .card-wisata {
+	min-height: 380px;
+	background-color: #000;
+	color: #fff;
+	padding: 30px;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .wisata-loc {
+	font-size: 18px;
+	color: #fff;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .wisata-name {
+	font-size: 26px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.rekomendasi-wisata
+	.rekomendasi-wisata-konten
+	.wisata-button
+	.btn-wisata-details {
+	background-color: #e22328;
+	color: #fff;
+}
+
+.rekomendasi-wisata
+	.rekomendasi-wisata-konten
+	.wisata-button
+	.btn-wisata-details:hover {
+	background-color: #e22328;
+	color: white;
+}
+
+.section-indonesia {
+	margin-top: 70px;
+}
+
+.section-indonesia .section-indonesia-heading {
+	margin-top: 20px;
+}
+
+.section-indonesia .section-indonesia-heading h4 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #e22328;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-indonesia .section-indonesia-heading p {
+	font-size: 18px;
+}
+
+.section-review {
+	margin-top: 5px;
+	background-color: #ffffff;
+	min-height: 220px;
+}
+
+.tikpol {
+	margin-top: 20px;
+	background-color: #ffffff;
+}
+
+.section-review h4 {
+	font-size: 30px;
+	margin-top: 40px;
+	font-weight: 600;
+	color: #05668d;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-review p {
+	font-size: 18px;
+}
+
+.section-review .card-review {
+	min-height: 400px;
+	margin-top: 45px;
+	background-color: #fff;
+	padding: 25px;
+}
+
+.section-review .name-review {
+	font-size: 26px;
+	color: #05668d;
+	font-weight: 600;
+}
+
+.section-breadcrumb .breadcrumb {
+	background: transparent;
+}
+
+.section-breadcrumb .breadcrumb li a {
+	color: #24262b;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.section-breadcrumb .breadcrumb .active {
+	color: #24262b;
+	font-weight: 600;
+}
+
+.section-content-gallery .breadcrumb {
+	background: transparent;
+}
+
+.section-content-gallery img a {
+	text-decoration: none;
+}
+
+.section-content-gallery .section-gallery {
+	margin-top: 40px;
+	background-color: #f6f7fb;
+}
+
+.section-content-gallery .section-gallery .img-gallery {
+	background-color: white;
+	-webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+	width: 330px;
+	margin: auto;
+	-webkit-transform: translateY(-40px);
+	transform: translateY(-40px);
+}
+
+.section-content-gallery .section-gallery h4 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #05668d;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-content-gallery .img-gallery a:hover {
+	text-decoration: none;
+}
+
+.section-content-gallery .img-gallery a img {
+	padding: 5px;
+}
+
+.section-content-gallery .heading-price {
+	font-size: 27px;
+	color: #05668d;
+}
+
+.section-content-gallery .heading-price span {
+	font-size: 18px;
+}
+
+.section-content-gallery .heading-name-lock h4 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #05668d;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-content-gallery .img-features img {
+	max-height: 35px;
+}
+
+.section-content-gallery .capt-pic {
+	color: #05668d;
+}
+
+.section-content-gallery .map-location {
+	margin-top: 40px;
+}
+
+.section-content-gallery .trip-infor .card {
+	background-color: #f6f7fb;
+}
+
+.section-content-gallery .trip-infor .card h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #05668d;
+}
+
+.section-content-gallery .trip-infor .card p {
+	color: #05668d;
+}
+
+.section-content-gallery .trip-infor h5 {
+	font-size: 15px;
+}
+
+.section-content-gallery .pic-members img {
+	max-height: 45px;
+}
+
+.section-content-gallery .pic-members .card {
+	max-width: 45px;
+	max-height: 45px;
+}
+
+.section-content-gallery .btn-booked {
+	background-color: #24262b;
+}
+
+.section-content-gallery .btn-booked a {
+	color: white;
+	text-decoration: none;
+}
+
+.section-content-gallery .btn-booked:hover {
+	background-color: #24262b;
+}
+
+.section-checkout .checkout-content {
+	background-color: #f6f7fb;
+	padding: 10px;
+}
+
+.section-checkout .checkout-content .heading-content-checkout {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #05668d;
+}
+
+.section-checkout .table tr {
+	color: #05668d;
+}
+
+.section-checkout .btn-add {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #24262b;
+	border-radius: 100px;
+	max-width: 200px;
+}
+
+.section-checkout .btn-add a {
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.section-checkout .btn-add:hover {
+	background-color: #24262b;
+}
+
+.btn-add {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #24262b;
+	border-radius: 100px;
+	max-width: 200px;
+}
+
+.btn-add a {
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-add:hover {
+	background-color: #24262b;
+}
+
+.section-pay .content-pay {
+	background-color: #f6f7fb;
+}
+
+.section-pay .content-pay .card-title h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #05668d;
+}
+
+.section-pay .content-pay .parag {
+	color: #05668d;
+	font-weight: 400;
+}
+
+.section-pay .content-pay .parag span {
+	color: #24262b;
+}
+
+.section-pay .content-pay .unique {
+	color: #24262b;
+	font-weight: 400;
+}
+
+.section-pay .btn-made-payment {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #24262b;
+	max-width: 700px;
+	color: white;
+}
+
+.section-pay .btn-made-payment a {
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.section-pay .btn-made-payment:hover {
+	background-color: #24262b;
+	color: white;
+}
+
+.modal-dialog h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #05668d;
+	margin-top: 20px;
+}
+
+.modal-dialog p {
+	color: #05668d;
+}
+
+.section-gallery .bg-gallery {
+	background-color: #05668d;
+}
+
+.section-gallery .bg-gallery h4 {
+	font-weight: 600;
+	font-size: 40px;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-gallery .bg-gallery p {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.section-gallery .bg-gallery-yel {
+	background-color: #24262b;
+}
+
+.section-gallery .bg-gallery-yel h4 {
+	font-weight: 600;
+	font-size: 40px;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-gallery .bg-gallery-yel p {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.section-gallery img {
+	max-height: 465px;
+}
+
+.section-aboutus {
+	color: #05668d;
+}
+
+.section-aboutus .aboutus-desc {
+	background-color: #f6f7fb;
+	border-radius: 2px;
+}
+
+.section-aboutus h4 {
+	font-weight: 600;
+	font-size: 60px;
+	padding: 5px;
+	font-family: "Playfair Display", sans-serif;
+}
+
+.section-aboutus p {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.section-footer {
+	margin-top: 50px;
+	background-color: #f6f7fb;
+}
+
+.section-footer a {
+	text-decoration: none;
+	font-weight: 400;
+	color: #05668d;
+}
+
+.section-footer input {
+	border-radius: 0;
+}
+
+.section-footer .btn-send {
+	background-color: #24262b;
+	border-radius: 0;
+	color: #fff;
+}
+
+.section-footer p {
+	color: #05668d;
+}
+#content-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.column {
+	width: 1200px;
+}
+
+#featured {
+	max-width: 1510px;
+	max-height: 1650px;
+	position: relative;
+	cursor: pointer;
+}
+
+.active {
+	opacity: 1;
+}
+
+#img-container {
+	z-index: 0;
+	max-width: 500px;
+	position: relative;
+	margin-left: -155px;
+	background-size: cover;
+}
+
+#lens {
+	z-index: 2;
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	border: 2px solid gray;
+	background-repeat: no-repeat;
+	cursor: none;
+}
+
+/*# sourceMappingURL=style.css.map */

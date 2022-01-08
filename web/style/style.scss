@@ -1,0 +1,547 @@
+body {
+	font-family: "Assistant", sans-serif;
+	font-weight: 300;
+}
+nav {
+	position: fixed;
+}
+.navbar {
+	.active {
+		font-weight: 600;
+	}
+	background-color: #f6f7fb;
+}
+.navbar-hal {
+	background-color: #f6f7fb;
+}
+.navbar-brand {
+	img {
+		max-height: 40px;
+	}
+}
+.checkout-class {
+	font-size: 45px;
+
+	color: #05668d;
+}
+form {
+	.btn-login {
+		background-color: #24262b;
+		color: white;
+	}
+	.btn-login:hover {
+		background-color: #24262b;
+		color: white;
+		transition: ease-in 0.5s;
+	}
+	.btn-register {
+		color: black;
+	}
+	.btn-register:hover {
+		background-color: #24262b;
+		color: white;
+		transition: ease-in 0.5s;
+	}
+}
+
+.search-bar {
+	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+	.btn-searching {
+		background-color: #24262b;
+		color: white;
+	}
+	.btn-searching:hover {
+		background-color: #24262b;
+		color: white;
+		transition: ease-in 0.5s;
+	}
+}
+
+.carousel-web {
+	margin-top: -90px;
+	z-index: -9;
+}
+.carousel-inner {
+	margin-top: 20px;
+	img {
+		height: 500px;
+	}
+	.mobile-carousel {
+		h1 {
+			font-family: "Playfair Display", sans-serif;
+		}
+		.btn-vacation {
+			background-color: #24262b;
+			color: white;
+		}
+		.btn-vacation:hover {
+			background-color: #24262b;
+		}
+	}
+}
+.pic-title {
+	img {
+		max-height: 500px;
+	}
+	.pic-caption {
+		height: 270px;
+		background-color: #f6f7fb;
+
+		h1 {
+			font-weight: 600;
+			color: #05668d;
+			font-size: 40px;
+			font-family: "Playfair Display", sans-serif;
+		}
+		p {
+			font-size: 30px;
+		}
+	}
+}
+
+//WEB Statistik
+.statistik {
+	margin-top: 45px;
+	h2 {
+		font-size: 30px;
+		font-weight: 600;
+		color: #05668d;
+		font-family: "Playfair Display", sans-serif;
+	}
+	p {
+		font-size: 18px;
+	}
+	.card-statistic {
+		width: 150px;
+		height: 150px;
+		padding: 10px 5px;
+		-webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+		h3 {
+			font-size: 60px;
+			color: #05668d;
+		}
+		p {
+			color: #05668d;
+		}
+	}
+}
+
+//MOBILE statistik
+.statistik {
+	.mobile-card-statistic {
+		height: 100px;
+		padding: 2px 4px;
+		-webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+		h3 {
+			font-size: 50px;
+			color: #05668d;
+		}
+		p {
+			color: #05668d;
+		}
+	}
+}
+//kateogrie rekomendasi
+.categories {
+	.categories-pic {
+	}
+	margin-top: 50px;
+	h4 {
+		font-size: 25px;
+		font-weight: 600;
+		color: #05668d;
+		font-family: "Playfair Display", sans-serif;
+	}
+	p {
+		font-size: 18px;
+	}
+	img {
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	img:hover {
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		text-decoration: none;
+	}
+}
+
+.section-wisata {
+	background-color: #f6f7fb;
+	min-height: 300px;
+	margin-top: 70px;
+	margin-bottom: -150px;
+	.section-wisata-heading {
+		margin-top: 20px;
+
+		h4 {
+			font-size: 30px;
+			font-weight: 600;
+			color: #05668d;
+			font-family: "Playfair Display", sans-serif;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}
+.rekomendasi-wisata {
+	.rekomendasi-wisata-konten {
+		.card-wisata {
+			min-height: 380px;
+			background-color: #000;
+			color: #fff;
+			padding: 30px;
+			background-size: cover;
+			margin-bottom: 20px;
+		}
+		.wisata-loc {
+			font-size: 18px;
+			color: #fff;
+		}
+		.wisata-name {
+			font-size: 26px;
+			color: #fff;
+			font-weight: 600;
+		}
+		.wisata-button {
+			.btn-wisata-details {
+				background-color: #24262b;
+				color: #fff;
+
+				&:hover {
+					background-color: #24262b;
+					color: white;
+				}
+			}
+		}
+	}
+}
+//section Indonesia
+.section-indonesia {
+	margin-top: 70px;
+	.section-indonesia-heading {
+		margin-top: 20px;
+		h4 {
+			font-size: 30px;
+			font-weight: 600;
+			color: #05668d;
+			font-family: "Playfair Display", sans-serif;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}
+
+.section-review {
+	margin-top: 50px;
+	background-color: #f6f7fb;
+	min-height: 700px;
+	h4 {
+		font-size: 30px;
+		margin-top: 40px;
+		font-weight: 600;
+		color: #05668d;
+		font-family: "Playfair Display", sans-serif;
+	}
+	p {
+		font-size: 18px;
+	}
+	.card-review {
+		min-height: 400px;
+		margin-top: 45px;
+		background-color: #fff;
+		padding: 25px;
+	}
+	.name-review {
+		font-size: 26px;
+		color: #05668d;
+		font-weight: 600;
+	}
+}
+
+//breadcrumb
+.section-breadcrumb {
+	.breadcrumb {
+		background: transparent;
+		li a {
+			color: #24262b;
+			font-weight: 400;
+			text-decoration: none;
+		}
+		.active {
+			color: #24262b;
+			font-weight: 600;
+		}
+	}
+}
+
+.section-content-gallery {
+	.breadcrumb {
+		background: transparent;
+	}
+
+	img a {
+		text-decoration: none;
+	}
+	.section-gallery {
+		margin-top: 40px;
+		background-color: #f6f7fb;
+
+		.img-gallery {
+			background-color: white;
+			box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+			width: 330px;
+			margin: auto;
+			transform: translateY(-40px);
+		}
+		h4 {
+			font-size: 30px;
+			font-weight: 600;
+			color: #05668d;
+			font-family: "Playfair Display", sans-serif;
+		}
+	}
+	.img-gallery a:hover {
+		text-decoration: none;
+	}
+	.img-gallery a {
+		img {
+			padding: 5px;
+		}
+	}
+	.heading-price {
+		font-size: 27px;
+		color: #05668d;
+		span {
+			font-size: 18px;
+		}
+	}
+	.heading-name-lock {
+		h4 {
+			font-size: 30px;
+			font-weight: 600;
+			color: #05668d;
+			font-family: "Playfair Display", sans-serif;
+		}
+	}
+	.img-features img {
+		max-height: 35px;
+	}
+
+	.capt-pic {
+		color: #05668d;
+	}
+
+	.map-location {
+		margin-top: 40px;
+	}
+	.trip-infor {
+		.card {
+			background-color: #f6f7fb;
+			h4 {
+				font-size: 20px;
+				font-weight: 600;
+				color: #05668d;
+			}
+			p {
+				color: #05668d;
+			}
+		}
+		h5 {
+			font-size: 15px;
+		}
+	}
+	.pic-members img {
+		max-height: 45px;
+	}
+	.pic-members .card {
+		max-width: 45px;
+		max-height: 45px;
+	}
+	.btn-booked {
+		background-color: #24262b;
+	}
+	.btn-booked a {
+		color: white;
+		text-decoration: none;
+	}
+	.btn-booked:hover {
+		background-color: #24262b;
+	}
+}
+
+.section-checkout {
+	.checkout-content {
+		background-color: #f6f7fb;
+		padding: 10px;
+
+		.heading-content-checkout {
+			margin-top: 20px;
+			font-size: 24px;
+			font-weight: 600;
+			color: #05668d;
+		}
+	}
+	.table {
+		tr {
+			color: #05668d;
+		}
+	}
+	.btn-add {
+		align-items: center;
+		background-color: #24262b;
+		border-radius: 100px;
+		max-width: 200px;
+	}
+	.btn-add a {
+		padding: 5px;
+		color: white;
+		text-decoration: none;
+	}
+	.btn-add:hover {
+		background-color: #24262b;
+	}
+}
+
+.btn-add {
+	align-items: center;
+	background-color: #24262b;
+	border-radius: 100px;
+	max-width: 200px;
+}
+.btn-add a {
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+.btn-add:hover {
+	background-color: #24262b;
+}
+
+.section-pay {
+	.content-pay {
+		background-color: #f6f7fb;
+		.card-title {
+			h4 {
+				font-size: 20px;
+				font-weight: 600;
+				color: #05668d;
+			}
+		}
+		.parag {
+			color: #05668d;
+			font-weight: 400;
+			span {
+				color: #24262b;
+			}
+		}
+		.unique {
+			color: #24262b;
+			font-weight: 400;
+		}
+	}
+	.btn-made-payment {
+		align-items: center;
+		background-color: #24262b;
+		max-width: 700px;
+		color: white;
+	}
+	.btn-made-payment a {
+		padding: 5px;
+		color: white;
+		text-decoration: none;
+	}
+	.btn-made-payment:hover {
+		background-color: #24262b;
+		color: white;
+	}
+}
+
+.modal-dialog {
+	h4 {
+		font-size: 20px;
+		font-weight: 600;
+		color: #05668d;
+		margin-top: 20px;
+	}
+	p {
+		color: #05668d;
+	}
+}
+
+.section-gallery {
+	.bg-gallery {
+		background-color: #05668d;
+		h4 {
+			font-weight: 600;
+			font-size: 40px;
+			font-family: "Playfair Display", sans-serif;
+		}
+		p {
+			font-size: 20px;
+			padding: 5px;
+		}
+	}
+
+	.bg-gallery-yel {
+		background-color: #24262b;
+		h4 {
+			font-weight: 600;
+			font-size: 40px;
+			font-family: "Playfair Display", sans-serif;
+		}
+		p {
+			font-size: 20px;
+			padding: 5px;
+		}
+	}
+	img {
+		max-height: 465px;
+	}
+}
+
+.section-aboutus {
+	color: #05668d;
+	.aboutus-desc {
+		background-color: #f6f7fb;
+		border-radius: 2px;
+	}
+	h4 {
+		font-weight: 600;
+		font-size: 60px;
+		padding: 5px;
+		font-family: "Playfair Display", sans-serif;
+	}
+	p {
+		font-size: 20px;
+		padding: 10px;
+	}
+}
+
+.section-footer {
+	margin-top: 50px;
+	background-color: #f6f7fb;
+	a {
+		text-decoration: none;
+		font-weight: 400;
+		color: #05668d;
+	}
+	input {
+		border-radius: 0;
+	}
+	.btn-send {
+		background-color: #24262b;
+		border-radius: 0;
+		color: #fff;
+	}
+	p {
+		color: #05668d;
+	}
+}
